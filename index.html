@@ -14,69 +14,91 @@ latest HTML 5 -->
 </head>
 
 <body>
-  <img src="bernice.png" alt="image of bernice" width=200px height=200px />
-  <h1>Bernice Simon</h1>
-  <p><em>Lab Technician</em></p>
-  <p>Hello. I'm learning programming via Angela Yu on uDemy. I hope to change career paths and find a way to mix my love of Chemistry and Biology in order to pair it with programming to one day get into Biocheminformatics.
-    I currently work as a Lab Technician at the Naval Medical Research Center and fully love my job, but I  have always had a love for programming. P.S. I really love coffee.</p>
+  <div class="top-header">
+    <img class="intro" src="bernice.png" alt="image of bernice" width=200px height=200px />
+    <h1 class="intro name">Bernice Simon</h1>
+    <p class="intro title"><em>Lab Technician</em></p>
+  </div>
+  <div class="intro-container">
+    <p class="intro-para">Hello. I'm learning programming via Angela Yu on uDemy. I hope to change career paths and find a way to mix my love of Chemistry and Biology in order to pair it with programming to one day get into Biocheminformatics.
+      I currently work as a Lab Technician at the Naval Medical Research Center and fully love my job, but I have always had a love for programming. P.S. I really love coffee.</p>
+  </div>
   <br>
+
+
   <hr> <!-- has no end tag -->
-  <h3>Education</h3>
-  <ul>
-    <li>Montgomery College</li>
+
+  <h3 class="titles">Education</h3>
+  <div class="content">
     <ul>
-      <li>A.S. Chemistry</li>
+      <li>Montgomery College</li>
+      <ul>
+        <li>A.S. Chemistry</li>
+      </ul>
+      <li><a target="_blank" href="https://www.umbc.edu/">University of Maryland, Baltimore County</a></li>
+      <ul>
+        <li>B.S. Chemistry (currently pursuing)</li>
+      </ul>
     </ul>
-    <li><a target="_blank" href="https://www.umbc.edu/">University of Maryland, Baltimore County</a></li>
+  </div>
+  <hr>
+  <h3 class="titles">Work Experience</h3>
+  <div class="content">
+    <table cellspacing=10>
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2016-2019</td>
+          <td>Lab Technician NMRC</td>
+        </tr>
+        <tr>
+          <td>2014-2015</td>
+          <td>Chemistry Tutor</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </div>
+  <hr>
+
+  <br>
+  <h3 class="titles">Skills</h3>
+  <div class="content">
+    <table cellspacing=10>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>⭐️⭐️⭐️</td>
+          <td>Chemistry</td>
+          <td>⭐️⭐️⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐️⭐️⭐️</td>
+          <td>Biology</td>
+          <td>⭐️⭐️⭐️⭐️</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+  </div>
+  <hr>
+  <br>
+  <h3 class="titles">About/Contact</h3>
+  <div class="contact">
     <ul>
-      <li>B.S. Chemistry (currently pursuing)</li>
+      <li><a href="hobbies.html">My Hobbies</a><br /><br></li>
+      <li><a href="contactme.html">Contact Me</a><br><br></li>
     </ul>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing=10>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2016-2019</td>
-        <td>Lab Technician NMRC</td>
-      </tr>
-      <tr>
-        <td>2014-2015</td>
-        <td>Chemistry Tutor</td>
-      </tr>
-    </tbody>
-    <tfoot>
-    </tfoot>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing=10>
-    <tbody>
-      <tr>
-        <td>HTML</td>
-        <td>⭐️⭐️⭐️</td>
-        <td>Chemistry</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐️⭐️⭐️</td>
-        <td>Biology</td>
-        <td>⭐️⭐️⭐️⭐️</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr>
-  <br>
-  <a href="hobbies.html">My Hobbies</a><br />
-  <a href="contactme.html">Contact Me</a><br><br>
+
+
+  </div>
 </body>
 
 </html>

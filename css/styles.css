@@ -13,3 +13,44 @@ hr {
 h1, h3 {
   color: #7090B3;
 }
+
+img {
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-header, .intro-container, .content, .titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-para {
+  padding-top: 30px;
+  width: 500px;
+}
+
+.intro {
+  display: inline-block;
+  position: relative;
+}
+
+.name {
+  left: 30px;
+}
+
+.title {
+  top: 30px;
+  right: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
