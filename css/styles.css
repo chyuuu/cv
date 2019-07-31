@@ -23,6 +23,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .top-header, .intro-container, .content, .titles {
   display: flex;
   justify-content: center;
@@ -39,18 +40,24 @@ ul {
   position: relative;
 }
 
+.pfp {
+left: 50px;
+
+
+}
+
+
 .name {
-  left: 30px;
+  left: 80px;
 }
 
 .title {
   top: 30px;
-  right: 50px;
+  right: 55px;
 }
 
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
