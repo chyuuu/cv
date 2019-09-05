@@ -1,6 +1,6 @@
 body {
-  background-color: #D4E9FF;
-  font-family: monaco, Consolas, "Lucida Console", monospace;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -10,12 +10,16 @@ hr {
   border-width: 5px;
 }
 
-h1, h3 {
-  color: #7090B3;
+h1 {
+  color: #FF98A0;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 4em;
 }
 
-img {
-  border-radius: 50%;
+h3 {
+  color: #FF98A0;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 2em;
 }
 
 ul {
@@ -41,11 +45,18 @@ ul {
 }
 
 .pfp {
-left: 50px;
-
-
+margin-top: 30px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
+.school {
+  float:left;
+  width: 10%;
+  padding-right: 30px;
+}
 
 .name {
   left: 80px;
